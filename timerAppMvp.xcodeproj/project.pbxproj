@@ -56,15 +56,39 @@
 		0705B369249D85FA009D39A7 /* timerAppMvp */ = {
 			isa = PBXGroup;
 			children = (
+				0705B37E249D863A009D39A7 /* Model */,
+				0705B37F249D8648009D39A7 /* View */,
+				0705B380249D864E009D39A7 /* Controller */,
 				0705B36A249D85FA009D39A7 /* AppDelegate.swift */,
 				0705B36C249D85FA009D39A7 /* SceneDelegate.swift */,
-				0705B36E249D85FA009D39A7 /* ViewController.swift */,
-				0705B370249D85FA009D39A7 /* Main.storyboard */,
 				0705B373249D85FC009D39A7 /* Assets.xcassets */,
-				0705B375249D85FC009D39A7 /* LaunchScreen.storyboard */,
 				0705B378249D85FC009D39A7 /* Info.plist */,
 			);
 			path = timerAppMvp;
+			sourceTree = "<group>";
+		};
+		0705B37E249D863A009D39A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0705B37F249D8648009D39A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0705B375249D85FC009D39A7 /* LaunchScreen.storyboard */,
+				0705B370249D85FA009D39A7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0705B380249D864E009D39A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0705B36E249D85FA009D39A7 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
